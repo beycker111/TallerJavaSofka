@@ -1,11 +1,12 @@
 package com.javatallerfinal;
 
+import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class MenuPrincipal {
 
     public static void menu(){
-        System.out.println("**********EJERCICIOS PRÁCTICOS J1AVA************");
+        System.out.println("**********EJERCICIOS PRÁCTICOS JAVA************");
         System.out.println("1 - Ejercicio 1 \n2 - Ejercicio 2 \n3 - Ejercicio 3 \n4 - Ejercicio 4");
         System.out.println("5 - Ejercicio 5 \n6 - Ejercicio 6 \n7 - Ejercicio 7 \n8 - Ejercicio 8");
         System.out.println("9 - Ejercicio 9 \n10 - Ejercicio 10 \n11 - Ejercicio 11 \n12 - Ejercicio 12");
@@ -20,36 +21,77 @@ public class MenuPrincipal {
         return numero;
     }
 
+    public static String leerUnValorString(Scanner teclado){
+
+        System.out.println("Por favor ingresa el texto");
+        String cadena = teclado.nextLine();
+        return cadena;
+    }
+
     public static void main(String[] args) {
 
-        Scanner myObj = new Scanner(System.in);
+        Scanner myObjNum = new Scanner(System.in);
+        Scanner myObjStr = new Scanner(System.in);
         Ejercicio ejercicio = new Ejercicio();
 
         boolean entrar = true;
 
         while (entrar){
             menu();
-            int opcion = myObj.nextInt();
+            int opcion = myObjNum.nextInt();
             if(opcion > 0 && opcion < 20){
                 switch (opcion){
                     case 1:
                         System.out.println(ejercicio.compararDosNumerosAleatorios());
                         break;
                     case 2:
-                        double a = leerUnValorDouble(myObj);
-                        double b = leerUnValorDouble(myObj);
+                        double a = leerUnValorDouble(myObjNum);
+                        double b = leerUnValorDouble(myObjNum);
                         System.out.println(ejercicio.compararDosNumerosPorConsola(a,b));
                         break;
                     case 3:
-                        double radio = leerUnValorDouble(myObj);
-                        System.out.println("El area del circulo es: " + ejercicio.calcularAreaDeCirculo(radio));
+                        double radio = leerUnValorDouble(myObjNum);
+                        System.out.println("El area del círculo es: " + ejercicio.calcularAreaDeCirculo(radio));
                         break;
                     case 4:
-                        double precio = leerUnValorDouble(myObj);
+                        double precio = leerUnValorDouble(myObjNum);
                         System.out.println("El precio del producto con IVA es: " + ejercicio.calcularIVAProducto(precio));
                         break;
                     case  5:
                         ejercicio.mostrarNumerosParesEImparesDel1Al100();
+                        break;
+                    case 6:
+                        ejercicio.mostrarNumerosParesEImparesDel1Al100CicloFor();
+                        break;
+                    case 7:
+                        ejercicio.comprobarNumeroMayorQueCero();
+                        break;
+                    case 8:
+                        String dia = leerUnValorString(myObjStr);
+                        System.out.println(ejercicio.comprobarDiaLaboral(dia));
+                        break;
+                    case 9:
+                        ejercicio.remplazarYConcatenar();
+                        break;
+                    case 10:
+                        String frase = leerUnValorString(myObjStr);
+                        System.out.println(ejercicio.eliminarEspaciosDeFrase(frase));
+                        break;
+                    case 11:
+                        String frase2 = leerUnValorString(myObjStr);
+                        ejercicio.longitudCadenaYContarVocales(frase2);
+                        break;
+                    case 12:
+                        String palabra1 = leerUnValorString(myObjStr);
+                        String palabra2 = leerUnValorString(myObjStr);
+                        System.out.println(ejercicio.compararDosPalabras(palabra1, palabra2));
+                        break;
+                    case 13:
+                        System.out.println(ejercicio.fechaYHoraActual());
+                        break;
+                    case 14:
+                        int inicio = (int)leerUnValorDouble(myObjNum);
+                        ejercicio.numerosHastaMilDeDosEnDos(inicio);
                         break;
                     case 19:
                         entrar = false;

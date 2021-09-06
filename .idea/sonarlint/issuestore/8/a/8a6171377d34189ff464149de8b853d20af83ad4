@@ -1,17 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ıšÏáúÿÿÿÿ
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(àŠèıÿÿÿÿ
-S	java:S106
-"9Replace this use of System.out or System.err by a logger.(—À»ßşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(åĞ‹
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ö±Æøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ŞµÉÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¬°Ìé
-S	java:S106"9Replace this use of System.out or System.err by a logger.(äµ§‹ûÿÿÿÿ
-7	java:S131"""Add a default case to this switch.(°€àâ
-S	java:S106$"9Replace this use of System.out or System.err by a logger.(¦Ëèüÿÿÿÿ
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(œé”¡
-N	java:S106-"9Replace this use of System.out or System.err by a logger.(Ï§Á¶
-N	java:S1061"9Replace this use of System.out or System.err by a logger.(°Ò¦Ò
-y
-java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "numero".(â¯½üÿÿÿÿ

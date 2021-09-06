@@ -1,11 +1,0 @@
-
-D
-java:S2140")Use "java.util.Random.nextInt()" instead.(Û˜“Ûÿÿÿÿÿ
-D
-java:S2140")Use "java.util.Random.nextInt()" instead.(¨Úæ¾ûÿÿÿÿ
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(Æë°¸8Õõ¼»/
-]	java:S1252"<This block of commented-out lines of code should be removed.(¦² …ÿÿÿÿÿ8‰Àô¼»/
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(å³Œöûÿÿÿÿ8Õö¼»/
-]	java:S1256"<This block of commented-out lines of code should be removed.(Ê×àşÿÿÿÿ8¸ãô¼»/
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ìŸø¼»/
