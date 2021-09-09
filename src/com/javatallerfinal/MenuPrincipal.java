@@ -35,6 +35,7 @@ public class MenuPrincipal {
         Ejercicio ejercicio = new Ejercicio();
         EjercicioPersona ejercicioPersona = new EjercicioPersona();
         EjercicioElectrodomestico ejercicioElectrodomestico = new EjercicioElectrodomestico();
+        EjercicioPrestamo ejercicioPrestamo = new EjercicioPrestamo();
 
         boolean entrar = true;
 
@@ -101,6 +102,17 @@ public class MenuPrincipal {
                     case 17:
                         ejercicioElectrodomestico.asignarElectrodomesticosAArreglo();
                         ejercicioElectrodomestico.calcularPrecioElectrodomesticos();
+                        break;
+                    case 18:
+                        ejercicioPrestamo.asignarElementosAArreglos();
+                        ejercicioPrestamo.entregarAlgunasSeries();
+                        ejercicioPrestamo.entregarAlgunosVideojuegos();
+                        System.out.println("Cantidad de series prestadas: " + ejercicioPrestamo.contarSeriesPrestadasYDevolver());
+                        System.out.println("Cantidad de videojuegos prestados: " + ejercicioPrestamo.contarVideojuegosPrestadosYDevolver());
+                        System.out.println("Serie con más temporadas:");
+                        System.out.println(ejercicioPrestamo.serieMasTemporadas());
+                        System.out.println("Videojuego con más horas estimadas:");
+                        System.out.println(ejercicioPrestamo.videojuegoMasHorasEstimadas());
                         break;
                     case 19:
                         entrar = false;
