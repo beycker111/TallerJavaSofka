@@ -34,6 +34,7 @@ public class MenuPrincipal {
         Scanner myObjStr = new Scanner(System.in);
         Ejercicio ejercicio = new Ejercicio();
         EjercicioPersona ejercicioPersona = new EjercicioPersona();
+        EjercicioElectrodomestico ejercicioElectrodomestico = new EjercicioElectrodomestico();
 
         boolean entrar = true;
 
@@ -96,6 +97,10 @@ public class MenuPrincipal {
                         break;
                     case 16:
                         ejercicioPersona.pedirDatos();
+                        break;
+                    case 17:
+                        ejercicioElectrodomestico.asignarElectrodomesticosAArreglo();
+                        ejercicioElectrodomestico.calcularPrecioElectrodomesticos();
                         break;
                     case 19:
                         entrar = false;

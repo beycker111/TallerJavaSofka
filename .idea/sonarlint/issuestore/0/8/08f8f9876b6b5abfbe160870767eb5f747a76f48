@@ -1,0 +1,31 @@
+
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(Û˜“Ûÿÿÿÿÿ
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(¨Úæ¾ûÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(Æë°¸
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(å³Œöûÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(Æë°¸
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(å³Œöûÿÿÿÿ
+M	java:S106M"9Replace this use of System.out or System.err by a logger.(¶¯¨+
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(µÿ™èıÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(Ë¯òÿ
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(Ñ±ÌË
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(ˆÜ·òşÿÿÿÿ
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(‰Õˆßúÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ç¡–Àùÿÿÿÿ
+T	java:S106¥"9Replace this use of System.out or System.err by a logger.(“»õìûÿÿÿÿ
+T	java:S106¦"9Replace this use of System.out or System.err by a logger.(ª®ÙĞúÿÿÿÿ
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(Ò¤—úÿÿÿÿ
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(¢›·»ùÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(–Úï‘
+T	java:S106Ä"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+T	java:S106Ç"9Replace this use of System.out or System.err by a logger.(Øîúÿÿÿÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8óñ°Û¼/
+O
+java:S1128"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8óñ°Û¼/
+n
+java:S1192_"SDefine a constant instead of duplicating this literal "Es un dÃ­a laboral" 5 times.(ÜµÆ´üÿÿÿÿ
+„
+java:S1488ˆ"hImmediately return this expression instead of assigning it to the temporary variable "fraseSinEspacios".(¹¹¨¦ÿÿÿÿÿ

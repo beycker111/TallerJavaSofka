@@ -92,7 +92,8 @@ public class Persona {
 
         int modulo= numeroDNIAleatorio % 23;
         char letra = juegoCaracteres.charAt(modulo);
-        String DNIFinal = numeroDNIAleatorio + letra + "";
+        System.out.println(letra);
+        String DNIFinal = numeroDNIAleatorio + "" + letra;
 
         return DNIFinal;
     }
