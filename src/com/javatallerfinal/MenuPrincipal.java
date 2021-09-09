@@ -33,6 +33,7 @@ public class MenuPrincipal {
         Scanner myObjNum = new Scanner(System.in);
         Scanner myObjStr = new Scanner(System.in);
         Ejercicio ejercicio = new Ejercicio();
+        EjercicioPersona ejercicioPersona = new EjercicioPersona();
 
         boolean entrar = true;
 
@@ -92,6 +93,9 @@ public class MenuPrincipal {
                     case 14:
                         int inicio = (int)leerUnValorDouble(myObjNum);
                         ejercicio.numerosHastaMilDeDosEnDos(inicio);
+                        break;
+                    case 16:
+                        ejercicioPersona.pedirDatos();
                         break;
                     case 19:
                         entrar = false;
