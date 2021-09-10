@@ -96,6 +96,9 @@ public class MenuPrincipal {
                         int inicio = (int)leerUnValorDouble(myObjNum);
                         ejercicio.numerosHastaMilDeDosEnDos(inicio);
                         break;
+                    case 15:
+                        ejercicio.IterarMenuGestionCinematografica();
+                        break;
                     case 16:
                         ejercicioPersona.pedirDatos();
                         break;

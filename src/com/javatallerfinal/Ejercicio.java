@@ -199,4 +199,46 @@ public class Ejercicio {
             System.out.println("El número ingresado debe ser menor a 1000");
         }
     }
+
+    public void IterarMenuGestionCinematografica(){
+        boolean entrar = true;
+        Scanner myObjStr = new Scanner(System.in);
+        while (entrar){
+            menuGestionCinematografica();
+            String opcion = myObjStr.nextLine();
+            switch (opcion){
+                case "1":
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    break;
+                case "4":
+                    break;
+                case "5":
+                    break;
+                case "6":
+                    break;
+                case "7":
+                    break;
+                case "8":
+                    entrar = false;
+                    break;
+                default:
+                    System.out.println("OPCION INCORRECTA");
+                    break;
+
+            }
+
+        }
+    }
+
+    public static void menuGestionCinematografica(){
+        System.out.println("**********GESTIÓN CINEMATOGRAFICA************");
+        System.out.println("1 - NUEVO ACTOR 1 \n2 - BUSCAR ACTOR \n3 - ELIMINAR ACTOR \n4 - MODIFICAR ACTOR");
+        System.out.println("5 - VER TODOS LOS ACTORES \n6 - VER PELICULAS DE LOS ACTORES");
+        System.out.println("7 - VER CATEGORIA DE PELICULAS DE LOS ACTORES \n8 - SALIR");
+        System.out.println("Digite una de las opciones");
+    }
+
 }
